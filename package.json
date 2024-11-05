@@ -1,0 +1,28 @@
+{
+  "name": "job-scheduler-app",
+  "version": "1.0.0",
+  "description": "The backend implementation for job scheduling, REST API setup, and WebSocket handling, as well as the React frontend setup.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ram-Kumar-V-P/job-scheduler.git"
+  },
+  "author": "Ram",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ram-Kumar-V-P/job-scheduler/issues"
+  },
+  "homepage": "https://github.com/Ram-Kumar-V-P/job-scheduler#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "uuid": "^11.0.2",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
