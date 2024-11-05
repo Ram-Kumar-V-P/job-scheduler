@@ -7,7 +7,7 @@ A job scheduler application using Node.js (Express) for the backend and React fo
 
 ### Backend (Node.js)
 1. Install dependencies: `npm install`
-2. Start the server: `node server.js`
+2. Start the server: `npx nodemon server.js`
 
 ### Frontend (React)
 1. Navigate to the `client` directory: `cd client`
